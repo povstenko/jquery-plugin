@@ -4,11 +4,12 @@
 
         // Default options
         var settings = $.extend({
-            name: 'John Doe'
+            name: 'John Doe',
+            color: 'blue'
         }, options);
 
         // Apply options
-        return this.append('Hello ' + settings.name + '!');
+        return this.append('Hello ' + settings.name + '!').css({ color: settings.color });
 
     };
 

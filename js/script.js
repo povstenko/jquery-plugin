@@ -1,3 +1,6 @@
 $(document).ready(function () {
-    $('#here').hello();
+    $('#here').hello({
+        name: 'Vitaliy Povstenko',
+        color: 'red'
+    });
 });
